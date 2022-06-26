@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css">
+    <title>myportfolio</title>
+</head>
+<body>
+    <div class="container">
+            <header class="header">
+                <h1 class="header-h1"><a href="#">Portfolio</a></h1>
+              <nav class="nav">
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#works">Works</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </nav>
+              <div class="header-logo-menu">
+                <div id="nav-drawer">
+                    <input id="nav-input" type="checkbox" class="nav-unshown">
+                    <label id="nav-open" for="nav-input"><span></span></label>
+                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                    <div id="nav-content">
+                        <ul>
+                            <li><a href="#">・Home</a></li>
+                            <li><a href="#about">・About</a></li>
+                            <li><a href="#skills">・Skills</a></li>
+                            <li><a href="#works">・Works</a></li>
+                            <li><a href="#contact">・Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+            </header>
+            <main class="main">
+                <img class="header-img" src="portfolio-images/keybord-main.jpg" alt="">
+                <div class="main-wrapper">
+                    <div class="about" id="about">
+                        <img class="my-img" src="portfolio-images/introduce.jpg" alt="">
+                        <p class="me">ida yuto</p>
+                        <div class="introduce">
+                            <h2 class="head-word"><span class="stress">A</span>bout</h2>
+                            <p class="normal center">2000年生まれ　20歳大学生</p>
+                            <p class="normal">高校までは、ずっと野球をしていました。そのため、プログラミングとは全く無縁の環境で育ちました。
+                                しかし、あるきっかけで大学の入ってから、プログラミングに出会い独学で勉強を進めてきました。
+                                そのため、コンピューターが全くわからない方から、丁寧に幅広いニーズにお応えしていくことが可能です。
+                                <br>是非ともよろしくお願いします！</p>
+                        </div>
+                    </div>
+                    <div class="skills" id="skills">
+                        <h2 class="skill-head">Skills</h2>
+                        <div class="content">
+                            <i class="fab fa-html5 size"></i>
+                            <p class="s-html">HTML5</p>
+                        </div>
+                        <div class="content">
+                            <i class="fab fa-css3-alt c-size"></i>
+                            <p class="s-css">CSS3</p>
+                        </div>
+                        <div class="content">
+                            <i class="fas fa-mobile-alt r-size"></i>
+                            <p class="s-respon">RESPONSIVE</p>
+                        </div>
+                        <div class="content">
+                            <i class="fas fa-globe-americas e-size"></i>
+                            <p class="s-eng">ENGLISH</p>
+                        </div>
+                    </div>
+                    <div class="works" id="works">
+                        <h2 class="skill-head">Works</h2>
+                        <div class="simple">
+                            <img class="skill-img" src="portfolio-images/simplesite 1.jpg" alt="">
+                            <p class="site">シンプルなホームページ
+                            </p>
+                            <a class="change" href="file:///C:/Users/yutai2525/Desktop/test1/index.html">実際のサイトはこちらから＞＞</a>
+                        </div>
+                        <div class="simple">
+                            <img class="skill-img" src="portfolio-images/simplesite2.jpg" alt="">
+                            <p class="site">シンプルなコーポレートサイト
+                            </p>
+                            <a class="change" href="file:///C:/Users/yutai2525/Desktop/test2/index.html">実際のサイトはこちらから＞＞</a>
+                        </div>
+                    </div>
+                    <div class="contact" id="contact">
+                        <h2 class="skill-head">Contact</h2>
+                        <div class="Form">
+                            <div class="Form-Item">
+                              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+                              <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+                            </div>
+                            <div class="Form-Item">
+                              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+                              <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+                            </div>
+                            <div class="Form-Item">
+                              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+                              <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+                            </div>
+                            <div class="Form-Item">
+                              <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+                              <textarea class="Form-Item-Textarea"></textarea>
+                            </div>
+                            <input type="submit" class="Form-Btn" value="送信する">
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="foot-p">
+                    <p>Copyright© <a>ida yuto 2020</a> </p>
+                  </div>
+            </footer>
+    </div>
+</body>
+</html>
